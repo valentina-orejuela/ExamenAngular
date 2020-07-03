@@ -1,0 +1,25 @@
+.sombra{
+    -webkit-box-shadow: 9px 11px 11px -3px rgba(235,235,235,1);
+    -moz-box-shadow: 9px 11px 11px -3px rgba(235,235,235,1);
+    box-shadow: 9px 11px 11px -3px rgba(235,235,235,1);
+    
+}
+
+body {
+    padding-bottom: 30px;
+    position: relative;
+    min-height: 100%;
+  
+  }
+
+  .palabra{
+      margin-left: 150px;
+  }
+
+  @media (max-width: 786px)  and (min-width: 570px) { 
+      
+    .palabra{
+        margin-left: 150px;
+    }
+   }
+  
