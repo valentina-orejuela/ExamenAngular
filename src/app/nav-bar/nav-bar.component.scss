@@ -21,5 +21,19 @@ body {
     .palabra{
         margin-left: 150px;
     }
+    i{
+        visibility: hidden;
+    }
+   }
+
+   @media (max-width: 570px)  and (min-width: 470px){
+    i{
+        visibility: hidden;
+    }
+
    }
   
+i{
+    font-size: 25px;
+}
+
